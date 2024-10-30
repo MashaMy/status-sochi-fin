@@ -85,7 +85,7 @@ export const Glavnaya = () => (
         <div className="hero">
           <div className="col-md-6 col-lg-8 text-center pt-2">
             <h1 className="text-center m-2 utoch">STATUS</h1>
-            <h3 className="vuebon pt-4 py-5">ДИЗАЙН ИНТЕРЬЕРА СОЧИ</h3>
+            <h3 className="vuebon pt-5 py-5">ДИЗАЙН ИНТЕРЬЕРА СОЧИ</h3>
           </div>
           <div className="flex-col-item-center">
             <a href="https://t.me/design_buroSP" target="_blank ">
