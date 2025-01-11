@@ -50,6 +50,6 @@ export const dataKapsula = [
 
       {
         id: 9,
-        service: '2D коллажи',
+        service: 'Развертка стен',
       }
 ]

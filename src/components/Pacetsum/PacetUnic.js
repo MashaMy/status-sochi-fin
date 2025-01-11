@@ -49,7 +49,7 @@ function PacetUnic() {
   return (
     <Styles>
 <div className="d-grid gap-0 col-6 mx-auto m-4 ">
-<button className="btn btn-outline-light text-center" type="button"  onClick={ handlClick }>Эксклюзив дизайн проект - 7000 ₽/м2<span>развернуть</span></button>
+<button className="btn btn-outline-light text-center" type="button"  onClick={ handlClick }>Эксклюзив дизайн проект - 5500 ₽/м2<span>развернуть</span></button>
 {show && dataUnic.map ((element => {
       const {id,service} = element;
            

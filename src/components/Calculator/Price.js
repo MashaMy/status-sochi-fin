@@ -68,9 +68,11 @@ function Price() {
     let result = baseSum * square;
 
     services.forEach((service) => {
-      if ((service.id === 22 || service.id === 23) && service.isOrder) {
+      if ((service.id === 22 ) && service.isOrder) {
         result += service.price;
       }
+
+      // || service.id === 23
 
       if ((service.id === 24 || service.id === 25) && service.isOrder) {
         result += (result * service.price) / 100;

@@ -45,7 +45,7 @@ function PacetStandart() {
   return (
     <Styles>
 <div className="d-grid gap-0 col-6 mx-auto m-4 ">
-<button className="btn btn-outline-light text-center" type="button"  onClick={ handlClick }>Стандарт дизайн проект - 3500 ₽/м2<span>развернуть</span></button>
+<button className="btn btn-outline-light text-center" type="button"  onClick={ handlClick }>Стандарт дизайн проект - 3000 ₽/м2<span>развернуть</span></button>
 {show && dataStandart.map ((element => {
       const {id,service} = element;
            
